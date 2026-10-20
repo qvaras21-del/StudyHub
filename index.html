@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>StudyHub</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="app">
+  <aside id="side" aria-label="Navigation">
+    <a class="logo" href="#/">Study<b>Hub</b></a>
+    <nav id="nav"></nav>
+  </aside>
+  <div class="main">
+    <header class="top">
+      <button id="menu" class="chip" aria-label="Menu">☰</button>
+      <span class="sp"></span>
+      <button id="lang" class="chip" aria-label="Language"></button>
+      <button id="theme" class="chip" aria-label="Theme"></button>
+      <span id="user"></span>
+    </header>
+    <main id="view" tabindex="-1"></main>
+  </div>
+</div>
+<div id="toast" role="status" aria-live="polite"></div>
+<script src="js/data.js"></script>
+<script src="js/tests.js"></script>
+<script src="js/planner.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
